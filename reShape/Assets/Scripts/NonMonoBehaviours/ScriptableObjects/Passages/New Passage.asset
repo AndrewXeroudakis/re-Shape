@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e848057a30cfb42b49d4c85a91e1cb, type: 3}
+  m_Name: New Passage
+  m_EditorClassIdentifier: 
+  name: officeFloorMonday
+  paragraphs:
+  - id: officeFloorMonday_paragraph_0
+    text: You wake your computer up, as soon as you've settled on your office chair.
+      It creaks softly under your weight, the sound almost deafening on the almost-empty
+      office floor.
+  - id: officeFloorMonday_paragraph_1
+    text: Early morning light seeps in from the edge of the horizon, trickling across
+      the grey winter sky like honey. From the corridor, you can hear the whooping
+      cries of a gaggle of graveyard shifters as they begin to log out with the practiced
+      grace of synchronized swimmers.
+  - id: officeFloorMonday_paragraph_2
+    text: '"Hey, handsome," goes Patty, one of the graveyard shifters, as she passes
+      by your cubicle. You can''t help but smile.'
+  - id: officeFloorMonday_paragraph_3
+    text: You check your watch, realizing you're half an hour early. You got some
+      time to waste.
+  choices:
+  - description: "\u2981Make some coffee"
+    passage: {fileID: 0}
+  - description: "\u2981Waste time in the bathroom"
+    passage: {fileID: 0}
+  - description: "\u2981Talk to Patty"
+    passage: {fileID: 0}
+  - description: "\u2981Log in"
+    passage: {fileID: 0}
