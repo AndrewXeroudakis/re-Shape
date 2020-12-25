@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e848057a30cfb42b49d4c85a91e1cb, type: 3}
+  m_Name: wasteTimeInTheBathroom_monday
+  m_EditorClassIdentifier: 
+  name: wasteTimeInTheBathroom_monday
+  textBlocks:
+  - id: wasteTimeInTheBathroom_monday_textBlock_0
+    text: You enter the bathroom and lock the stall door behind you.
+  - id: wasteTimeInTheBathroom_monday_textBlock_1
+    text: You sit on the toilet, leaning back to take in the distant ocean sound
+      of the vents, pumping recycled air inside the building.
+  - id: wasteTimeInTheBathroom_monday_textBlock_2
+    text: ~clear~You catch the sound of a faint grunt a couple of stalls away from
+      you, the kind of animal heave that Dave from finance used to make on Saturday
+      shifts, when the Friday night binges would catch up to him.
+  - id: wasteTimeInTheBathroom_monday_textBlock_3
+    text: ~clear~You're about to call out to him, when you hear another, softer moan
+      joining his, rising and falling to a drumbeat rhythm.
+  - id: wasteTimeInTheBathroom_monday_textBlock_4
+    text: ~clear~"Dave you fucking horndog, just keep it in your damn-" you begin
+      to say, when there's a third grunt, another man-noise, this one deeper than
+      the others, panting faster, louder.
+  - id: wasteTimeInTheBathroom_monday_textBlock_5
+    text: ~clear~The moans start up again, all three at the same time, reaching a
+      crescendo and there's the overpowering odor of sweaty human beings and latex
+      and you leave the stall, heading for the door just as there's a shrill, *girly*
+      laughter coming from behind the door.
+  - id: wasteTimeInTheBathroom_monday_textBlock_6
+    text: ~clear~"Goddamn weirdos," you groan and glance at the clock.
+  - id: wasteTimeInTheBathroom_monday_textBlock_7
+    text: ~clear~There's still some time to kill.
+  actions:
+  - description: Talk to Patty
+    passage: {fileID: 11400000, guid: 0e0ce254686f3c14d86ef9cdff29eecf, type: 2}
+  - description: Make some coffee
+    passage: {fileID: 11400000, guid: 288341acb50ad8a4ebc1f7a52b069c78, type: 2}
+  - description: Check your IMP
+    passage: {fileID: 11400000, guid: 9c8b4f31969b0c443aa9b3e7cd86e13c, type: 2}
+  - description: Log in
+    passage: {fileID: 11400000, guid: 83e783c89fd1b2e449b84710ffdcc375, type: 2}

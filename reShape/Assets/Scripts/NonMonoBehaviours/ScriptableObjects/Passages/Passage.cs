@@ -5,8 +5,8 @@ public class Passage : ScriptableObject
 {
 	#region Variables
 	public new string name;
-	public Paragraph[] paragraphs;
-	public Choice[] choices;
+	public PassageTextBlock[] textBlocks;
+	public PassageAction[] actions;
 	#endregion
 
 	#region Unity Event Functions

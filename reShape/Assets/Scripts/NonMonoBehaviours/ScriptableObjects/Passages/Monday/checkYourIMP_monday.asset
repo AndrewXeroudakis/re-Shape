@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e848057a30cfb42b49d4c85a91e1cb, type: 3}
+  m_Name: checkYourIMP_monday
+  m_EditorClassIdentifier: 
+  name: checkYourIMP_monday
+  textBlocks:
+  - id: checkYourIMP_monday_textBlock_0
+    text: Your IMP reacts to your touch, warming up against your palm.
+  - id: checkYourIMP_monday_textBlock_1
+    text: Its soft plastoid exterior fits snuggly against your skin, its interface
+      lighting up, all excited.
+  - id: checkYourIMP_monday_textBlock_2
+    text: Its tiny screen blinks open, its single eyelid revealing a small green
+      and black screen.
+  - id: checkYourIMP_monday_textBlock_3
+    text: "~clear~Sure, it\u2019s a bit of a lemon, too old to even connect to the
+      newer call networks, but you can still check your emails and keep notes and
+      its OS is so old it\u2019s practically impossible to hack into."
+  - id: checkYourIMP_monday_textBlock_4
+    text: "~clear~\u201CHey there,\u201D you say. Your IMP\u2019s interface chirps
+      happily in response."
+  actions:
+  - description: Check your emails
+    passage: {fileID: 11400000, guid: 7e5b95811c9d2cf489cc4cca68bfa9dc, type: 2}
+  - description: Check your journal
+    passage: {fileID: 0}
+  - description: Put your IMP away
+    passage: {fileID: 0}

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e848057a30cfb42b49d4c85a91e1cb, type: 3}
+  m_Name: makeSomeCoffee_monday
+  m_EditorClassIdentifier: 
+  name: makeSomeCoffee_monday
+  textBlocks:
+  - id: makeSomeCoffee_monday_textBlock_0
+    text: You step into the kitchen, searching for your mug among the piles of unwashed
+      dishes and collateral of the graveyard crew.
+  - id: makeSomeCoffee_monday_textBlock_1
+    text: Beside you, the coffeemaker hisses evilly, as drops of coffee splatter
+      onto the heating dish, the pot a casualty of the last going-away party 6 months
+      ago.
+  - id: makeSomeCoffee_monday_textBlock_2
+    text: ~clear~"Shit coffee, shit day," Yazmin's voice comes from behind you and
+      you turn, only to see her already plopped on a corner stool, with your mug
+      nestled in her cupped hands.
+  - id: makeSomeCoffee_monday_textBlock_3
+    text: "~clear~\"Don't knock it \u2018til you log in,\" you say as you take back
+      your mug, dumping the lukewarm gunk that's pooled at the bottom. "
+  - id: makeSomeCoffee_monday_textBlock_4
+    text: ~clear~"They rolled out new MAUDware last night," Yazmin says "company
+      email said it messed with familiars, among other things."
+  - id: makeSomeCoffee_monday_textBlock_5
+    text: ~clear~"Jesus wept," you groan, already picturing the rows on rows of desperate
+      weirdos piling onto the lines, moaning about their imaginary girlfriends and
+      their custom-made homonculi.
+  - id: makeSomeCoffee_monday_textBlock_6
+    text: You place your freshly washed mug on the cofeemaker's dish as the first
+      trickle of coffee begins to dribble into it.
+  - id: makeSomeCoffee_monday_textBlock_7
+    text: ~clear~"Your girlfriend didn't tell you?" Yazmin says.
+  - id: makeSomeCoffee_monday_textBlock_8
+    text: ~clear~"Patty's not my-" you begin to say, but Yazmin's already gone.
+  - id: makeSomeCoffee_monday_textBlock_9
+    text: On the dish, your mug begins to rattle like a dying man's teeth.
+  - id: makeSomeCoffee_monday_textBlock_10
+    text: ~clear~You still have some time to kill.
+  actions:
+  - description: Waste time in the bathroom
+    passage: {fileID: 11400000, guid: 3a8d0415ead765d4d815f78543e0a4fb, type: 2}
+  - description: Talk to Patty
+    passage: {fileID: 11400000, guid: 0e0ce254686f3c14d86ef9cdff29eecf, type: 2}
+  - description: Log in
+    passage: {fileID: 11400000, guid: 83e783c89fd1b2e449b84710ffdcc375, type: 2}
+  - description: Check your IMP
+    passage: {fileID: 11400000, guid: 9c8b4f31969b0c443aa9b3e7cd86e13c, type: 2}
